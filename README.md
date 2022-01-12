@@ -31,7 +31,7 @@ rate          0.0050
 
 In this example, the underlying ("AR") is priced at 18.44. The three options all have 36 days to expiration, at strikes 17, 18, and 19. Their implied volatilities are, respectively 13%, 14%, 15%. The 17 and 19 calls are short, the 18 call is long (2 contracts).
 
-The `time` and `rate` are optional. After clicking `submit` to render the payoff graph, you can also set `time` using the slider. Known issue: dragging the slider too fast will break the graph.
+The `time` and `rate` are optional. After clicking `submit` to render the payoff graph, you can also set `time` using the slider. Known issue: dragging the slider too fast will break the graph. `time` is in calendar days, and `rate` is the discount rate (50 basis points in this example).
 
 You can plot as many underlyings and options as you would like. However, the strikes in the payoff graph only refer to the underlying for the option nearest expiration.
 
