@@ -27,6 +27,8 @@ time          20
 rate          0.0050
 ```
 
+![example output](https://github.com/toobrien/payoff/blob/master/example.png?raw=true)
+
 In this example, the underlying ("AR") is priced at 18.44. The three options all have 36 days to expiration, at strikes 17, 18, and 19. Their implied volatilities are, respectively 13%, 14%, 15%. The 17 and 19 calls are short, the 18 call is long (2 contracts).
 
 The `time` and `rate` are optional. After clicking `submit` to render the payoff graph, you can also set `time` using the slider. Known issue: dragging the slider too fast will break the graph.
