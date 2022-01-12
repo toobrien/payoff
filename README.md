@@ -37,6 +37,6 @@ You can plot as many underlyings and options as you would like. However, the str
 
 Note that the ticker is arbitrary; it is only used to identify the underlying for each option.
 
-When changing any thing in the text box, click `submit` to show the changes.
+When changing anything in the text box, click `submit` to show the changes.
 
 The `mode` dropdown also refreshes the graph. When `value` is selected, the payoff graph does not include the option's initial price (which is determined from its IV). When `pnl` is selected, the payoff includes the option's price. 

@@ -11,7 +11,7 @@ from view import view
 
 # GLOBALS
 
-app = Dash(__name__, title = "payoff_2")
+app = Dash(__name__, title = "payoff")
 model_ = model()
 view_ = view()
 
